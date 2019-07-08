@@ -51,11 +51,12 @@ function hashFunction(value){
 function addEntries(numberOfEntries){
     let i = 0;
     while(i < numberOfEntries){
-        let randomNumber = Math.round(Math.random() * 100000);
+        let randomNumber = Math.round(Math.random() * 1000);
         dictionary.setNewItem(words.textByLine[randomNumber]);
         i++;
     };
 };
 let dictionary = new Dictionary(1000);
 addEntries(10)
-console.log([...dictionary.printAll()]);
+dictionary.getItem('')
+//console.log([...dictionary.printAll()]);
