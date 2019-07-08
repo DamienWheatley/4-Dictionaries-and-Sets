@@ -1,0 +1,22 @@
+{
+  "name": "4dictionairesandsets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DamienWheatley/4-Dictionaries-and-Sets.git"
+  },
+  "author": "Damien Wheatley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DamienWheatley/4-Dictionaries-and-Sets/issues"
+  },
+  "homepage": "https://github.com/DamienWheatley/4-Dictionaries-and-Sets#readme",
+  "dependencies": {
+    "md5": "^2.2.1"
+  }
+}
